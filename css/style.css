@@ -48,13 +48,17 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
     padding: 0;
     margin: 0;
+
 }
+
 
 .hero-content {
     width: 100%;
@@ -62,6 +66,7 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .aboutme-container {
@@ -136,6 +141,7 @@ a:focus {
     
 }
 a:hover, a:active {
+    
 
 }
 
@@ -178,9 +184,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -203,6 +209,21 @@ a:hover, a:active {
     background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #74b44a;
+}
+
+
+.contact-container {
+    background: #29326a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    padding: 8px 0;
+    align-items: center;
+}
+
+#Email {
+    color: #3b7ed6;
 }
 
 
